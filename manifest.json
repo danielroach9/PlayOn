@@ -1,0 +1,15 @@
+{
+	"name": "TheNextEpisode",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "Automates going to the next available episode when streaming content",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://kissanime.to/Anime/*",
+				"www.toonova.com/*"
+			],
+			"js": ["content.js"]
+		}
+	]
+}

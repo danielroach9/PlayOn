@@ -1,0 +1,3 @@
+function kissanime() {}
+
+function toonova() {}
